@@ -1,0 +1,26 @@
+{
+  "author": "Andrew J. Stone <andrew.stone@bozuko.com>",
+  "name": "delorean",
+  "description": "Time Engine Simulator",
+  "version": "0.0.1",
+  "private": "true",
+  "repository": {
+    "url": ""
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*.js --reporter spec"
+  },
+  "engines": {
+    "node": ">=0.4.0"
+  },
+  "dependencies": {
+    "async": "*",
+    "express": "*",
+    "connect-redis": "*",
+    "jade": "*"
+  },
+  "devDependencies": {
+    "mocha": "*";
+  }
+}
